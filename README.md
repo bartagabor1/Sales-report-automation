@@ -144,7 +144,7 @@ Using the cleaned data, an interactive Power BI report was created with the foll
 
 **Preview:**
 
-![Dashboard screenshot](visuals/dashboard.png)
+![Dashboard screenshot](visuals/dashboard.PNG)
 
 ---
 
