@@ -1,0 +1,61 @@
+product_id,product_name,category,unit_price
+P001,Wireless Mouse,Electronics,19.99
+P002,Mechanical Keyboard,Electronics,49.99
+P003,USB-C Hub,Electronics,24.99
+P004,Noise Cancelling Headphones,Electronics,89.99
+P005,Smartphone Stand,Accessories,9.99
+P006,Laptop Sleeve,Accessories,15.99
+P007,Ergonomic Chair,Furniture,129.99
+P008,Standing Desk,Furniture,299.99
+P009,Monitor 27 inch,Electronics,179.99
+P010,Portable SSD 1TB,Electronics,109.99
+P011,Webcam HD,Electronics,39.99
+P012,LED Desk Lamp,Furniture,22.99
+P013,Wireless Charger,Electronics,29.99
+P014,Backpack,Accessories,44.99
+P015,Bluetooth Speaker,Electronics,59.99
+P016,Coffee Mug,Accessories,12.99
+P017,Notebook,Amenities,3.99
+P018,Pen Set,Amenities,5.99
+P019,Planner,Amenities,7.99
+P020,Power Bank,Electronics,39.99
+P021,Printer Paper,Office Supplies,6.99
+P022,Ink Cartridge,Office Supplies,19.99
+P023,Sticky Notes,Office Supplies,2.99
+P024,Desk Organizer,Accessories,13.99
+P025,Cable Management Kit,Accessories,8.99
+P026,Mouse Pad,Accessories,5.99
+P027,Surge Protector,Electronics,18.99
+P028,WiFi Router,Electronics,79.99
+P029,Smart Light Bulb,Electronics,14.99
+P030,Smart Watch,Wearables,149.99
+P031,Fitness Tracker,Wearables,99.99
+P032,VR Headset,Gaming,299.99
+P033,Gaming Chair,Gaming,199.99
+P034,Gaming Mouse,Gaming,59.99
+P035,Gaming Keyboard,Gaming,89.99
+P036,Graphic Tablet,Electronics,139.99
+P037,Projector,Electronics,249.99
+P038,External Monitor 24",Electronics,159.99
+P039,Office Desk,Furniture,249.99
+P040,File Cabinet,Furniture,149.99
+P041,Desk Mat,Accessories,14.99
+P042,Adjustable Laptop Stand,Accessories,29.99
+P043,Business Card Holder,Accessories,7.99
+P044,Whiteboard Markers,Office Supplies,4.99
+P045,Whiteboard Eraser,Office Supplies,3.49
+P046,Highlighter Set,Office Supplies,5.49
+P047,Label Printer,Electronics,59.99
+P048,Desk Fan,Electronics,24.99
+P049,Table Clock,Amenities,11.99
+P050,Document Shredder,Office Supplies,89.99
+P051,Phone Tripod,Accessories,19.99
+P052,Selfie Ring Light,Accessories,16.99
+P053,Pen Holder,Accessories,9.49
+P054,Wall Calendar,Amenities,6.49
+P055,Water Bottle,Accessories,10.99
+P056,Smart Thermostat,Electronics,119.99
+P057,Security Camera,Electronics,129.99
+P058,Door Sensor,Electronics,29.99
+P059,Conference Microphone,Electronics,79.99
+P060,Noise-Isolating Panels,Furniture,59.99

@@ -1,0 +1,501 @@
+sales_id,customer_id,product_id,date,quantity,unit_price_x,revenue,product_name,category,unit_price_y,name,country,email
+S0001,C097,P037,2024-12-19,4,249.99,999.96,Projector,Electronics,249.99,Gao Ming,China,gao.ming@example.cn
+S0002,C081,P015,2024-02-23,7,59.99,419.93,Bluetooth Speaker,Electronics,59.99,Logan White,USA,logan.white@example.com
+S0003,C075,P037,2024-06-06,8,249.99,1999.92,Projector,Electronics,249.99,Sanjay Desai,India,sanjay.desai@example.in
+S0004,C028,P017,2024-02-21,4,3.99,15.96,Notebook,Amenities,3.99,Claire Lefevre,France,claire.lefevre@example.fr
+S0005,C012,P032,2024-10-14,6,299.99,1799.94,VR Headset,Gaming,299.99,Oliver Taylor,UK,oliver.taylor@example.co.uk
+S0006,C094,P052,2024-11-06,9,16.99,152.91,Selfie Ring Light,Accessories,16.99,Renáta Németh,Hungary,renata.nemeth@example.hu
+S0007,C072,P009,2024-02-04,1,179.99,179.99,Monitor 27 inch,Electronics,179.99,Emily Carter,UK,emily.carter@example.co.uk
+S0008,C001,P012,2024-01-13,1,22.99,22.99,LED Desk Lamp,Furniture,22.99,Emily Johnson,USA,emily.johnson@example.com
+S0009,C095,P049,2024-09-21,7,11.99,83.93,Table Clock,Amenities,11.99,Vikram Iyer,India,vikram.iyer@example.in
+S0010,C080,P013,2024-12-04,6,29.99,179.94,Wireless Charger,Electronics,29.99,Kristin Moe,Norway,kristin.moe@example.no
+S0011,C057,P020,2024-09-21,2,39.99,79.98,Power Bank,Electronics,39.99,Liu Hong,China,liu.hong@example.cn
+S0012,C004,P030,2024-08-08,8,149.99,1199.92,Smart Watch,Wearables,149.99,László Kovács,Hungary,laszlo.kovacs@example.hu
+S0013,C057,P027,2024-02-21,1,18.99,18.99,Surge Protector,Electronics,18.99,Liu Hong,China,liu.hong@example.cn
+S0014,C072,P058,2024-09-20,4,29.99,119.96,Door Sensor,Electronics,29.99,Emily Carter,UK,emily.carter@example.co.uk
+S0015,C027,P023,2024-11-22,6,2.99,17.94,Sticky Notes,Office Supplies,2.99,Zhang Yong,China,zhang.yong@example.cn
+S0016,C011,P024,2024-09-14,6,13.99,83.94,Desk Organizer,Accessories,13.99,William Brown,USA,william.brown@example.com
+S0017,C094,P011,2024-09-10,1,39.99,39.99,Webcam HD,Electronics,39.99,Renáta Németh,Hungary,renata.nemeth@example.hu
+S0018,C061,P021,2024-11-06,9,6.99,62.91,Printer Paper,Office Supplies,6.99,Ava Wilson,USA,ava.wilson@example.com
+S0019,C095,P002,2024-04-09,7,49.99,349.93,Mechanical Keyboard,Electronics,49.99,Vikram Iyer,India,vikram.iyer@example.in
+S0020,C087,P044,2024-08-01,2,4.99,9.98,Whiteboard Markers,Office Supplies,4.99,Huang Lei,China,huang.lei@example.cn
+S0021,C003,P060,2024-02-23,9,59.99,539.91,Noise-Isolating Panels,Furniture,59.99,Sophie Müller,Germany,sophie.mueller@example.de
+S0022,C083,P054,2024-06-03,10,6.49,64.9,Wall Calendar,Amenities,6.49,Nicole Schäfer,Germany,nicole.schaefer@example.de
+S0023,C040,P003,2024-04-09,1,24.99,24.99,USB-C Hub,Electronics,24.99,Ingrid Nilsen,Norway,ingrid.nilsen@example.no
+S0024,C047,P049,2024-08-28,8,11.99,95.92,Table Clock,Amenities,11.99,Sun Li,China,sun.li@example.cn
+S0025,C097,P004,2024-04-02,5,89.99,449.95,Noise Cancelling Headphones,Electronics,89.99,Gao Ming,China,gao.ming@example.cn
+S0026,C062,P043,2024-04-23,8,7.99,63.92,Business Card Holder,Accessories,7.99,Charlie Evans,UK,charlie.evans@example.co.uk
+S0027,C006,P010,2024-07-18,5,109.99,549.95,Portable SSD 1TB,Electronics,109.99,Ana Silva,Brazil,ana.silva@example.br
+S0028,C046,P056,2024-10-06,8,119.99,959.92,Smart Thermostat,Electronics,119.99,Bruna Lima,Brazil,bruna.lima@example.br
+S0029,C042,P044,2024-10-12,4,4.99,19.96,Whiteboard Markers,Office Supplies,4.99,Megan Walker,UK,megan.walker@example.co.uk
+S0030,C001,P015,2024-02-20,1,59.99,59.99,Bluetooth Speaker,Electronics,59.99,Emily Johnson,USA,emily.johnson@example.com
+S0031,C047,P025,2024-11-15,4,8.99,35.96,Cable Management Kit,Accessories,8.99,Sun Li,China,sun.li@example.cn
+S0032,C022,P042,2024-11-09,9,29.99,269.91,Adjustable Laptop Stand,Accessories,29.99,George Wilson,UK,george.wilson@example.co.uk
+S0033,C001,P013,2024-03-30,6,29.99,179.94,Wireless Charger,Electronics,29.99,Emily Johnson,USA,emily.johnson@example.com
+S0034,C096,P022,2024-11-11,8,19.99,159.92,Ink Cartridge,Office Supplies,19.99,Thiago Oliveira,Brazil,thiago.oliveira@example.br
+S0035,C044,P047,2024-11-03,8,59.99,479.92,Label Printer,Electronics,59.99,Erika Nagy,Hungary,erika.nagy@example.hu
+S0036,C085,P053,2024-02-19,3,9.49,28.47,Pen Holder,Accessories,9.49,Tanvi Nair,India,tanvi.nair@example.in
+S0037,C020,P015,2024-02-26,4,59.99,239.96,Bluetooth Speaker,Electronics,59.99,Eirik Larsen,Norway,eirik.larsen@example.no
+S0038,C051,P016,2024-10-23,1,12.99,12.99,Coffee Mug,Accessories,12.99,Ethan Moore,USA,ethan.moore@example.com
+S0039,C004,P011,2024-11-19,6,39.99,239.94,Webcam HD,Electronics,39.99,László Kovács,Hungary,laszlo.kovacs@example.hu
+S0040,C049,P006,2024-08-04,5,15.99,79.95,Laptop Sleeve,Accessories,15.99,Anders Møller,Denmark,anders.moeller@example.dk
+S0041,C095,P044,2024-06-19,9,4.99,44.91,Whiteboard Markers,Office Supplies,4.99,Vikram Iyer,India,vikram.iyer@example.in
+S0042,C051,P043,2024-04-21,9,7.99,71.91,Business Card Holder,Accessories,7.99,Ethan Moore,USA,ethan.moore@example.com
+S0043,C093,P031,2024-06-15,3,99.99,299.97,Fitness Tracker,Wearables,99.99,Stefan Koch,Germany,stefan.koch@example.de
+S0044,C006,P021,2024-02-26,5,6.99,34.95,Printer Paper,Office Supplies,6.99,Ana Silva,Brazil,ana.silva@example.br
+S0045,C073,P042,2024-04-19,1,29.99,29.99,Adjustable Laptop Stand,Accessories,29.99,Martin Bauer,Germany,martin.bauer@example.de
+S0046,C015,P060,2024-07-18,3,59.99,179.97,Noise-Isolating Panels,Furniture,59.99,Priyanka Sharma,India,priyanka.sharma@example.in
+S0047,C061,P004,2024-11-05,1,89.99,89.99,Noise Cancelling Headphones,Electronics,89.99,Ava Wilson,USA,ava.wilson@example.com
+S0048,C042,P034,2024-06-25,9,59.99,539.91,Gaming Mouse,Gaming,59.99,Megan Walker,UK,megan.walker@example.co.uk
+S0049,C064,P038,2024-04-23,5,159.99,799.95,"External Monitor 24""",Electronics,159.99,Ádám Horváth,Hungary,adam.horvath@example.hu
+S0050,C092,P001,2024-08-19,6,19.99,119.94,Wireless Mouse,Electronics,19.99,Grace Thomas,UK,grace.thomas@example.co.uk
+S0051,C036,P058,2024-11-18,6,29.99,179.94,Door Sensor,Electronics,29.99,Rafael Costa,Brazil,rafael.costa@example.br
+S0052,C025,P011,2024-11-02,10,39.99,399.9,Webcam HD,Electronics,39.99,Manoj Verma,India,manoj.verma@example.in
+S0053,C050,P051,2024-12-31,2,19.99,39.98,Phone Tripod,Accessories,19.99,Silje Hansen,Norway,silje.hansen@example.no
+S0054,C087,P008,2024-03-24,4,299.99,1199.96,Standing Desk,Furniture,299.99,Huang Lei,China,huang.lei@example.cn
+S0055,C044,P032,2024-12-19,7,299.99,2099.93,VR Headset,Gaming,299.99,Erika Nagy,Hungary,erika.nagy@example.hu
+S0056,C070,P016,2024-02-26,4,12.99,51.96,Coffee Mug,Accessories,12.99,Toril Aas,Norway,toril.aas@example.no
+S0057,C006,P050,2024-03-26,1,89.99,89.99,Document Shredder,Office Supplies,89.99,Ana Silva,Brazil,ana.silva@example.br
+S0058,C051,P045,2024-07-04,4,3.49,13.96,Whiteboard Eraser,Office Supplies,3.49,Ethan Moore,USA,ethan.moore@example.com
+S0059,C005,P060,2024-03-13,10,59.99,599.9,Noise-Isolating Panels,Furniture,59.99,Arjun Patel,India,arjun.patel@example.in
+S0060,C086,P058,2024-03-07,4,29.99,119.96,Door Sensor,Electronics,29.99,Diego Ramos,Brazil,diego.ramos@example.br
+S0061,C017,P037,2024-11-11,9,249.99,2249.91,Projector,Electronics,249.99,Li Na,China,li.na@example.cn
+S0062,C084,P037,2024-07-17,4,249.99,999.96,Projector,Electronics,249.99,Bálint Farkas,Hungary,balint.farkas@example.hu
+S0063,C096,P054,2024-06-16,9,6.49,58.41,Wall Calendar,Amenities,6.49,Thiago Oliveira,Brazil,thiago.oliveira@example.br
+S0064,C061,P055,2024-03-13,3,10.99,32.97,Water Bottle,Accessories,10.99,Ava Wilson,USA,ava.wilson@example.com
+S0065,C021,P048,2024-05-07,7,24.99,174.93,Desk Fan,Electronics,24.99,Jessica Lee,USA,jessica.lee@example.com
+S0066,C078,P009,2024-01-30,9,179.99,1619.91,Monitor 27 inch,Electronics,179.99,Chloe Bernard,France,chloe.bernard@example.fr
+S0067,C064,P017,2024-01-11,3,3.99,11.97,Notebook,Amenities,3.99,Ádám Horváth,Hungary,adam.horvath@example.hu
+S0068,C013,P018,2024-12-04,1,5.99,5.99,Pen Set,Amenities,5.99,Maria Fischer,Germany,maria.fischer@example.de
+S0069,C095,P054,2024-03-05,10,6.49,64.9,Wall Calendar,Amenities,6.49,Vikram Iyer,India,vikram.iyer@example.in
+S0070,C045,P047,2024-08-10,9,59.99,539.91,Label Printer,Electronics,59.99,Rajesh Singh,India,rajesh.singh@example.in
+S0071,C098,P019,2024-03-15,10,7.99,79.9,Planner,Amenities,7.99,Sophie Laurent,France,sophie.laurent@example.fr
+S0072,C068,P046,2024-06-07,4,5.49,21.96,Highlighter Set,Office Supplies,5.49,Louis Petit,France,louis.petit@example.fr
+S0073,C017,P060,2024-07-12,6,59.99,359.94,Noise-Isolating Panels,Furniture,59.99,Li Na,China,li.na@example.cn
+S0074,C063,P013,2024-05-25,9,29.99,269.91,Wireless Charger,Electronics,29.99,Paul Schmitt,Germany,paul.schmitt@example.de
+S0075,C028,P035,2024-09-06,2,89.99,179.98,Gaming Keyboard,Gaming,89.99,Claire Lefevre,France,claire.lefevre@example.fr
+S0076,C073,P018,2024-11-19,10,5.99,59.9,Pen Set,Amenities,5.99,Martin Bauer,Germany,martin.bauer@example.de
+S0077,C081,P039,2024-03-23,2,249.99,499.98,Office Desk,Furniture,249.99,Logan White,USA,logan.white@example.com
+S0078,C080,P012,2024-07-25,4,22.99,91.96,LED Desk Lamp,Furniture,22.99,Kristin Moe,Norway,kristin.moe@example.no
+S0079,C064,P038,2024-10-24,10,159.99,1599.9,"External Monitor 24""",Electronics,159.99,Ádám Horváth,Hungary,adam.horvath@example.hu
+S0080,C098,P026,2024-12-15,2,5.99,11.98,Mouse Pad,Accessories,5.99,Sophie Laurent,France,sophie.laurent@example.fr
+S0081,C014,P042,2024-09-13,2,29.99,59.98,Adjustable Laptop Stand,Accessories,29.99,Gábor Tóth,Hungary,gabor.toth@example.hu
+S0082,C027,P002,2024-07-25,6,49.99,299.94,Mechanical Keyboard,Electronics,49.99,Zhang Yong,China,zhang.yong@example.cn
+S0083,C068,P014,2024-09-23,9,44.99,404.91,Backpack,Accessories,44.99,Louis Petit,France,louis.petit@example.fr
+S0084,C056,P041,2024-07-14,1,14.99,14.99,Desk Mat,Accessories,14.99,Pedro Alves,Brazil,pedro.alves@example.br
+S0085,C036,P050,2024-05-09,1,89.99,89.99,Document Shredder,Office Supplies,89.99,Rafael Costa,Brazil,rafael.costa@example.br
+S0086,C063,P021,2024-08-06,3,6.99,20.97,Printer Paper,Office Supplies,6.99,Paul Schmitt,Germany,paul.schmitt@example.de
+S0087,C073,P022,2024-01-06,7,19.99,139.93,Ink Cartridge,Office Supplies,19.99,Martin Bauer,Germany,martin.bauer@example.de
+S0088,C069,P006,2024-10-16,8,15.99,127.92,Laptop Sleeve,Accessories,15.99,Henrik Thomsen,Denmark,henrik.thomsen@example.dk
+S0089,C034,P040,2024-03-15,5,149.99,749.95,File Cabinet,Furniture,149.99,Zoltán Kiss,Hungary,zoltan.kiss@example.hu
+S0090,C035,P029,2024-11-02,10,14.99,149.9,Smart Light Bulb,Electronics,14.99,Neha Kapoor,India,neha.kapoor@example.in
+S0091,C060,P011,2024-08-01,7,39.99,279.93,Webcam HD,Electronics,39.99,Ole Pedersen,Norway,ole.pedersen@example.no
+S0092,C059,P035,2024-12-15,4,89.99,359.96,Gaming Keyboard,Gaming,89.99,Rasmus Nielsen,Denmark,rasmus.nielsen@example.dk
+S0093,C020,P016,2024-03-17,6,12.99,77.94,Coffee Mug,Accessories,12.99,Eirik Larsen,Norway,eirik.larsen@example.no
+S0094,C069,P042,2024-01-08,8,29.99,239.92,Adjustable Laptop Stand,Accessories,29.99,Henrik Thomsen,Denmark,henrik.thomsen@example.dk
+S0095,C092,P025,2024-06-06,6,8.99,53.94,Cable Management Kit,Accessories,8.99,Grace Thomas,UK,grace.thomas@example.co.uk
+S0096,C096,P029,2024-01-31,3,14.99,44.97,Smart Light Bulb,Electronics,14.99,Thiago Oliveira,Brazil,thiago.oliveira@example.br
+S0097,C054,P002,2024-07-03,6,49.99,299.94,Mechanical Keyboard,Electronics,49.99,Dóra Balogh,Hungary,dora.balogh@example.hu
+S0098,C094,P052,2024-07-21,8,16.99,135.92,Selfie Ring Light,Accessories,16.99,Renáta Németh,Hungary,renata.nemeth@example.hu
+S0099,C074,P006,2024-06-25,3,15.99,47.97,Laptop Sleeve,Accessories,15.99,Krisztina Simon,Hungary,krisztina.simon@example.hu
+S0100,C077,P049,2024-03-15,3,11.99,35.97,Table Clock,Amenities,11.99,Zhao Wei,China,zhao.wei@example.cn
+S0101,C053,P052,2024-09-08,2,16.99,33.98,Selfie Ring Light,Accessories,16.99,Jan Becker,Germany,jan.becker@example.de
+S0102,C008,P030,2024-06-23,4,149.99,599.96,Smart Watch,Wearables,149.99,Isabelle Dubois,France,isabelle.dubois@example.fr
+S0103,C078,P030,2024-05-31,2,149.99,299.98,Smart Watch,Wearables,149.99,Chloe Bernard,France,chloe.bernard@example.fr
+S0104,C056,P049,2024-12-16,8,11.99,95.92,Table Clock,Amenities,11.99,Pedro Alves,Brazil,pedro.alves@example.br
+S0105,C080,P036,2024-10-14,1,139.99,139.99,Graphic Tablet,Electronics,139.99,Kristin Moe,Norway,kristin.moe@example.no
+S0106,C001,P011,2024-07-10,9,39.99,359.91,Webcam HD,Electronics,39.99,Emily Johnson,USA,emily.johnson@example.com
+S0107,C067,P051,2024-11-19,8,19.99,159.92,Phone Tripod,Accessories,19.99,Yu Jie,China,yu.jie@example.cn
+S0108,C027,P045,2024-07-09,9,3.49,31.41,Whiteboard Eraser,Office Supplies,3.49,Zhang Yong,China,zhang.yong@example.cn
+S0109,C061,P003,2024-04-10,4,24.99,99.96,USB-C Hub,Electronics,24.99,Ava Wilson,USA,ava.wilson@example.com
+S0110,C060,P051,2024-03-12,9,19.99,179.91,Phone Tripod,Accessories,19.99,Ole Pedersen,Norway,ole.pedersen@example.no
+S0111,C022,P004,2024-04-15,2,89.99,179.98,Noise Cancelling Headphones,Electronics,89.99,George Wilson,UK,george.wilson@example.co.uk
+S0112,C035,P034,2024-01-18,6,59.99,359.94,Gaming Mouse,Gaming,59.99,Neha Kapoor,India,neha.kapoor@example.in
+S0113,C069,P027,2024-11-22,8,18.99,151.92,Surge Protector,Electronics,18.99,Henrik Thomsen,Denmark,henrik.thomsen@example.dk
+S0114,C071,P001,2024-05-16,9,19.99,179.91,Wireless Mouse,Electronics,19.99,James Martinez,USA,james.martinez@example.com
+S0115,C045,P011,2024-01-02,9,39.99,359.91,Webcam HD,Electronics,39.99,Rajesh Singh,India,rajesh.singh@example.in
+S0116,C031,P051,2024-07-07,3,19.99,59.97,Phone Tripod,Accessories,19.99,Michael Davis,USA,michael.davis@example.com
+S0117,C048,P027,2024-05-02,10,18.99,189.9,Surge Protector,Electronics,18.99,Julie Moreau,France,julie.moreau@example.fr
+S0118,C032,P021,2024-09-28,8,6.99,55.92,Printer Paper,Office Supplies,6.99,Amelia Harris,UK,amelia.harris@example.co.uk
+S0119,C089,P008,2024-06-02,3,299.99,899.97,Standing Desk,Furniture,299.99,Kasper Sørensen,Denmark,kasper.sorensen@example.dk
+S0120,C001,P055,2024-12-03,2,10.99,21.98,Water Bottle,Accessories,10.99,Emily Johnson,USA,emily.johnson@example.com
+S0121,C061,P049,2024-09-05,9,11.99,107.91,Table Clock,Amenities,11.99,Ava Wilson,USA,ava.wilson@example.com
+S0122,C023,P010,2024-04-20,5,109.99,549.95,Portable SSD 1TB,Electronics,109.99,Thomas Schneider,Germany,thomas.schneider@example.de
+S0123,C074,P012,2024-03-04,5,22.99,114.95,LED Desk Lamp,Furniture,22.99,Krisztina Simon,Hungary,krisztina.simon@example.hu
+S0124,C016,P020,2024-08-03,10,39.99,399.9,Power Bank,Electronics,39.99,João Souza,Brazil,joao.souza@example.br
+S0125,C070,P029,2024-03-04,6,14.99,89.94,Smart Light Bulb,Electronics,14.99,Toril Aas,Norway,toril.aas@example.no
+S0126,C010,P020,2024-12-30,4,39.99,159.96,Power Bank,Electronics,39.99,Nora Berg,Norway,nora.berg@example.no
+S0127,C037,P053,2024-03-27,8,9.49,75.92,Pen Holder,Accessories,9.49,Wang Fang,China,wang.fang@example.cn
+S0128,C077,P039,2024-01-03,4,249.99,999.96,Office Desk,Furniture,249.99,Zhao Wei,China,zhao.wei@example.cn
+S0129,C070,P032,2024-02-05,7,299.99,2099.93,VR Headset,Gaming,299.99,Toril Aas,Norway,toril.aas@example.no
+S0130,C028,P022,2024-11-10,5,19.99,99.95,Ink Cartridge,Office Supplies,19.99,Claire Lefevre,France,claire.lefevre@example.fr
+S0131,C082,P036,2024-12-03,7,139.99,979.93,Graphic Tablet,Electronics,139.99,Sophie King,UK,sophie.king@example.co.uk
+S0132,C023,P020,2024-01-07,9,39.99,359.91,Power Bank,Electronics,39.99,Thomas Schneider,Germany,thomas.schneider@example.de
+S0133,C058,P015,2024-12-14,5,59.99,299.95,Bluetooth Speaker,Electronics,59.99,Marine Dubois,France,marine.dubois@example.fr
+S0134,C097,P016,2024-11-24,9,12.99,116.91,Coffee Mug,Accessories,12.99,Gao Ming,China,gao.ming@example.cn
+S0135,C057,P059,2024-06-04,3,79.99,239.97,Conference Microphone,Electronics,79.99,Liu Hong,China,liu.hong@example.cn
+S0136,C064,P004,2024-03-23,6,89.99,539.94,Noise Cancelling Headphones,Electronics,89.99,Ádám Horváth,Hungary,adam.horvath@example.hu
+S0137,C040,P042,2024-04-02,4,29.99,119.96,Adjustable Laptop Stand,Accessories,29.99,Ingrid Nilsen,Norway,ingrid.nilsen@example.no
+S0138,C094,P057,2024-08-01,2,129.99,259.98,Security Camera,Electronics,129.99,Renáta Németh,Hungary,renata.nemeth@example.hu
+S0139,C054,P045,2024-11-24,6,3.49,20.94,Whiteboard Eraser,Office Supplies,3.49,Dóra Balogh,Hungary,dora.balogh@example.hu
+S0140,C006,P039,2024-02-27,9,249.99,2249.91,Office Desk,Furniture,249.99,Ana Silva,Brazil,ana.silva@example.br
+S0141,C087,P030,2024-01-23,8,149.99,1199.92,Smart Watch,Wearables,149.99,Huang Lei,China,huang.lei@example.cn
+S0142,C044,P021,2024-01-05,5,6.99,34.95,Printer Paper,Office Supplies,6.99,Erika Nagy,Hungary,erika.nagy@example.hu
+S0143,C095,P049,2024-07-14,4,11.99,47.96,Table Clock,Amenities,11.99,Vikram Iyer,India,vikram.iyer@example.in
+S0144,C034,P001,2024-06-26,1,19.99,19.99,Wireless Mouse,Electronics,19.99,Zoltán Kiss,Hungary,zoltan.kiss@example.hu
+S0145,C088,P055,2024-10-29,4,10.99,43.96,Water Bottle,Accessories,10.99,Marc Lefevre,France,marc.lefevre@example.fr
+S0146,C029,P024,2024-01-17,6,13.99,83.94,Desk Organizer,Accessories,13.99,Lars Kristensen,Denmark,lars.kristensen@example.dk
+S0147,C074,P019,2024-12-09,4,7.99,31.96,Planner,Amenities,7.99,Krisztina Simon,Hungary,krisztina.simon@example.hu
+S0148,C078,P011,2024-12-07,2,39.99,79.98,Webcam HD,Electronics,39.99,Chloe Bernard,France,chloe.bernard@example.fr
+S0149,C076,P049,2024-07-12,5,11.99,59.95,Table Clock,Amenities,11.99,Luana Carvalho,Brazil,luana.carvalho@example.br
+S0150,C026,P025,2024-08-28,1,8.99,8.99,Cable Management Kit,Accessories,8.99,Camila Rocha,Brazil,camila.rocha@example.br
+S0151,C039,P017,2024-08-20,1,3.99,3.99,Notebook,Amenities,3.99,Mads Holm,Denmark,mads.holm@example.dk
+S0152,C094,P001,2024-04-20,7,19.99,139.93,Wireless Mouse,Electronics,19.99,Renáta Németh,Hungary,renata.nemeth@example.hu
+S0153,C076,P057,2024-10-05,3,129.99,389.97,Security Camera,Electronics,129.99,Luana Carvalho,Brazil,luana.carvalho@example.br
+S0154,C070,P029,2024-03-13,3,14.99,44.97,Smart Light Bulb,Electronics,14.99,Toril Aas,Norway,toril.aas@example.no
+S0155,C078,P032,2024-11-11,5,299.99,1499.95,VR Headset,Gaming,299.99,Chloe Bernard,France,chloe.bernard@example.fr
+S0156,C040,P020,2024-08-25,3,39.99,119.97,Power Bank,Electronics,39.99,Ingrid Nilsen,Norway,ingrid.nilsen@example.no
+S0157,C073,P032,2024-11-18,8,299.99,2399.92,VR Headset,Gaming,299.99,Martin Bauer,Germany,martin.bauer@example.de
+S0158,C071,P030,2024-02-01,2,149.99,299.98,Smart Watch,Wearables,149.99,James Martinez,USA,james.martinez@example.com
+S0159,C021,P025,2024-06-20,5,8.99,44.95,Cable Management Kit,Accessories,8.99,Jessica Lee,USA,jessica.lee@example.com
+S0160,C012,P029,2024-01-05,1,14.99,14.99,Smart Light Bulb,Electronics,14.99,Oliver Taylor,UK,oliver.taylor@example.co.uk
+S0161,C076,P059,2024-01-24,9,79.99,719.91,Conference Microphone,Electronics,79.99,Luana Carvalho,Brazil,luana.carvalho@example.br
+S0162,C058,P023,2024-09-01,4,2.99,11.96,Sticky Notes,Office Supplies,2.99,Marine Dubois,France,marine.dubois@example.fr
+S0163,C044,P033,2024-06-02,2,199.99,399.98,Gaming Chair,Gaming,199.99,Erika Nagy,Hungary,erika.nagy@example.hu
+S0164,C059,P046,2024-01-29,9,5.49,49.41,Highlighter Set,Office Supplies,5.49,Rasmus Nielsen,Denmark,rasmus.nielsen@example.dk
+S0165,C039,P039,2024-04-10,6,249.99,1499.94,Office Desk,Furniture,249.99,Mads Holm,Denmark,mads.holm@example.dk
+S0166,C027,P042,2024-12-04,4,29.99,119.96,Adjustable Laptop Stand,Accessories,29.99,Zhang Yong,China,zhang.yong@example.cn
+S0167,C091,P047,2024-11-01,5,59.99,299.95,Label Printer,Electronics,59.99,Daniel Hall,USA,daniel.hall@example.com
+S0168,C031,P045,2024-02-07,3,3.49,10.47,Whiteboard Eraser,Office Supplies,3.49,Michael Davis,USA,michael.davis@example.com
+S0169,C047,P014,2024-01-05,10,44.99,449.9,Backpack,Accessories,44.99,Sun Li,China,sun.li@example.cn
+S0170,C065,P011,2024-09-03,9,39.99,359.91,Webcam HD,Electronics,39.99,Ishita Joshi,India,ishita.joshi@example.in
+S0171,C006,P027,2024-07-13,10,18.99,189.9,Surge Protector,Electronics,18.99,Ana Silva,Brazil,ana.silva@example.br
+S0172,C095,P045,2024-10-18,7,3.49,24.43,Whiteboard Eraser,Office Supplies,3.49,Vikram Iyer,India,vikram.iyer@example.in
+S0173,C071,P030,2024-03-31,6,149.99,899.94,Smart Watch,Wearables,149.99,James Martinez,USA,james.martinez@example.com
+S0174,C039,P044,2024-03-15,9,4.99,44.91,Whiteboard Markers,Office Supplies,4.99,Mads Holm,Denmark,mads.holm@example.dk
+S0175,C027,P035,2024-05-15,7,89.99,629.93,Gaming Keyboard,Gaming,89.99,Zhang Yong,China,zhang.yong@example.cn
+S0176,C025,P052,2024-08-03,9,16.99,152.91,Selfie Ring Light,Accessories,16.99,Manoj Verma,India,manoj.verma@example.in
+S0177,C086,P045,2024-04-27,5,3.49,17.45,Whiteboard Eraser,Office Supplies,3.49,Diego Ramos,Brazil,diego.ramos@example.br
+S0178,C055,P042,2024-06-16,1,29.99,29.99,Adjustable Laptop Stand,Accessories,29.99,Anjali Mehta,India,anjali.mehta@example.in
+S0179,C017,P009,2024-04-06,6,179.99,1079.94,Monitor 27 inch,Electronics,179.99,Li Na,China,li.na@example.cn
+S0180,C038,P049,2024-05-05,1,11.99,11.99,Table Clock,Amenities,11.99,Antoine Girard,France,antoine.girard@example.fr
+S0181,C010,P027,2024-05-23,9,18.99,170.91,Surge Protector,Electronics,18.99,Nora Berg,Norway,nora.berg@example.no
+S0182,C028,P059,2024-12-22,7,79.99,559.93,Conference Microphone,Electronics,79.99,Claire Lefevre,France,claire.lefevre@example.fr
+S0183,C016,P020,2024-05-23,3,39.99,119.97,Power Bank,Electronics,39.99,João Souza,Brazil,joao.souza@example.br
+S0184,C038,P028,2024-06-22,2,79.99,159.98,WiFi Router,Electronics,79.99,Antoine Girard,France,antoine.girard@example.fr
+S0185,C086,P051,2024-02-05,4,19.99,79.96,Phone Tripod,Accessories,19.99,Diego Ramos,Brazil,diego.ramos@example.br
+S0186,C054,P022,2024-01-18,4,19.99,79.96,Ink Cartridge,Office Supplies,19.99,Dóra Balogh,Hungary,dora.balogh@example.hu
+S0187,C068,P002,2024-11-22,5,49.99,249.95,Mechanical Keyboard,Electronics,49.99,Louis Petit,France,louis.petit@example.fr
+S0188,C097,P032,2024-12-17,8,299.99,2399.92,VR Headset,Gaming,299.99,Gao Ming,China,gao.ming@example.cn
+S0189,C058,P060,2024-08-19,1,59.99,59.99,Noise-Isolating Panels,Furniture,59.99,Marine Dubois,France,marine.dubois@example.fr
+S0190,C058,P047,2024-12-05,9,59.99,539.91,Label Printer,Electronics,59.99,Marine Dubois,France,marine.dubois@example.fr
+S0191,C046,P057,2024-10-24,8,129.99,1039.92,Security Camera,Electronics,129.99,Bruna Lima,Brazil,bruna.lima@example.br
+S0192,C017,P015,2024-02-03,6,59.99,359.94,Bluetooth Speaker,Electronics,59.99,Li Na,China,li.na@example.cn
+S0193,C077,P024,2024-10-06,8,13.99,111.92,Desk Organizer,Accessories,13.99,Zhao Wei,China,zhao.wei@example.cn
+S0194,C012,P036,2024-05-05,10,139.99,1399.9,Graphic Tablet,Electronics,139.99,Oliver Taylor,UK,oliver.taylor@example.co.uk
+S0195,C095,P014,2024-03-11,3,44.99,134.97,Backpack,Accessories,44.99,Vikram Iyer,India,vikram.iyer@example.in
+S0196,C030,P054,2024-07-21,3,6.49,19.47,Wall Calendar,Amenities,6.49,Kari Solberg,Norway,kari.solberg@example.no
+S0197,C091,P014,2024-03-23,7,44.99,314.93,Backpack,Accessories,44.99,Daniel Hall,USA,daniel.hall@example.com
+S0198,C014,P018,2024-07-05,8,5.99,47.92,Pen Set,Amenities,5.99,Gábor Tóth,Hungary,gabor.toth@example.hu
+S0199,C085,P055,2024-03-06,6,10.99,65.94,Water Bottle,Accessories,10.99,Tanvi Nair,India,tanvi.nair@example.in
+S0200,C038,P035,2024-08-21,4,89.99,359.96,Gaming Keyboard,Gaming,89.99,Antoine Girard,France,antoine.girard@example.fr
+S0201,C016,P043,2024-11-05,4,7.99,31.96,Business Card Holder,Accessories,7.99,João Souza,Brazil,joao.souza@example.br
+S0202,C069,P057,2024-02-24,6,129.99,779.94,Security Camera,Electronics,129.99,Henrik Thomsen,Denmark,henrik.thomsen@example.dk
+S0203,C055,P031,2024-01-09,3,99.99,299.97,Fitness Tracker,Wearables,99.99,Anjali Mehta,India,anjali.mehta@example.in
+S0204,C029,P028,2024-11-27,5,79.99,399.95,WiFi Router,Electronics,79.99,Lars Kristensen,Denmark,lars.kristensen@example.dk
+S0205,C052,P026,2024-06-09,7,5.99,41.93,Mouse Pad,Accessories,5.99,Lily Young,UK,lily.young@example.co.uk
+S0206,C084,P059,2024-09-11,5,79.99,399.95,Conference Microphone,Electronics,79.99,Bálint Farkas,Hungary,balint.farkas@example.hu
+S0207,C009,P057,2024-07-08,9,129.99,1169.91,Security Camera,Electronics,129.99,Daniel Jensen,Denmark,daniel.jensen@example.dk
+S0208,C035,P001,2024-08-06,8,19.99,159.92,Wireless Mouse,Electronics,19.99,Neha Kapoor,India,neha.kapoor@example.in
+S0209,C080,P010,2024-08-15,9,109.99,989.91,Portable SSD 1TB,Electronics,109.99,Kristin Moe,Norway,kristin.moe@example.no
+S0210,C079,P014,2024-09-03,1,44.99,44.99,Backpack,Accessories,44.99,Jens Andersen,Denmark,jens.andersen@example.dk
+S0211,C032,P011,2024-12-14,4,39.99,159.96,Webcam HD,Electronics,39.99,Amelia Harris,UK,amelia.harris@example.co.uk
+S0212,C095,P036,2024-11-22,5,139.99,699.95,Graphic Tablet,Electronics,139.99,Vikram Iyer,India,vikram.iyer@example.in
+S0213,C012,P007,2024-06-05,6,129.99,779.94,Ergonomic Chair,Furniture,129.99,Oliver Taylor,UK,oliver.taylor@example.co.uk
+S0214,C081,P042,2024-06-02,1,29.99,29.99,Adjustable Laptop Stand,Accessories,29.99,Logan White,USA,logan.white@example.com
+S0215,C026,P026,2024-10-20,4,5.99,23.96,Mouse Pad,Accessories,5.99,Camila Rocha,Brazil,camila.rocha@example.br
+S0216,C093,P044,2024-03-03,6,4.99,29.94,Whiteboard Markers,Office Supplies,4.99,Stefan Koch,Germany,stefan.koch@example.de
+S0217,C002,P005,2024-05-03,7,9.99,69.93,Smartphone Stand,Accessories,9.99,Liam Smith,UK,liam.smith@example.co.uk
+S0218,C054,P038,2024-02-12,6,159.99,959.94,"External Monitor 24""",Electronics,159.99,Dóra Balogh,Hungary,dora.balogh@example.hu
+S0219,C050,P021,2024-02-12,8,6.99,55.92,Printer Paper,Office Supplies,6.99,Silje Hansen,Norway,silje.hansen@example.no
+S0220,C090,P028,2024-03-23,4,79.99,319.96,WiFi Router,Electronics,79.99,Helene Dahl,Norway,helene.dahl@example.no
+S0221,C088,P036,2024-12-25,3,139.99,419.97,Graphic Tablet,Electronics,139.99,Marc Lefevre,France,marc.lefevre@example.fr
+S0222,C024,P035,2024-07-31,1,89.99,89.99,Gaming Keyboard,Gaming,89.99,Katalin Varga,Hungary,katalin.varga@example.hu
+S0223,C001,P049,2024-05-06,9,11.99,107.91,Table Clock,Amenities,11.99,Emily Johnson,USA,emily.johnson@example.com
+S0224,C089,P013,2024-02-08,3,29.99,89.97,Wireless Charger,Electronics,29.99,Kasper Sørensen,Denmark,kasper.sorensen@example.dk
+S0225,C089,P025,2024-11-12,4,8.99,35.96,Cable Management Kit,Accessories,8.99,Kasper Sørensen,Denmark,kasper.sorensen@example.dk
+S0226,C092,P044,2024-11-21,6,4.99,29.94,Whiteboard Markers,Office Supplies,4.99,Grace Thomas,UK,grace.thomas@example.co.uk
+S0227,C057,P040,2024-03-31,2,149.99,299.98,File Cabinet,Furniture,149.99,Liu Hong,China,liu.hong@example.cn
+S0228,C077,P008,2024-09-01,7,299.99,2099.93,Standing Desk,Furniture,299.99,Zhao Wei,China,zhao.wei@example.cn
+S0229,C082,P003,2024-02-21,3,24.99,74.97,USB-C Hub,Electronics,24.99,Sophie King,UK,sophie.king@example.co.uk
+S0230,C079,P050,2024-07-19,1,89.99,89.99,Document Shredder,Office Supplies,89.99,Jens Andersen,Denmark,jens.andersen@example.dk
+S0231,C090,P043,2024-11-20,10,7.99,79.9,Business Card Holder,Accessories,7.99,Helene Dahl,Norway,helene.dahl@example.no
+S0232,C017,P023,2024-04-21,10,2.99,29.9,Sticky Notes,Office Supplies,2.99,Li Na,China,li.na@example.cn
+S0233,C023,P004,2024-07-13,1,89.99,89.99,Noise Cancelling Headphones,Electronics,89.99,Thomas Schneider,Germany,thomas.schneider@example.de
+S0234,C057,P029,2024-01-14,7,14.99,104.93,Smart Light Bulb,Electronics,14.99,Liu Hong,China,liu.hong@example.cn
+S0235,C058,P013,2024-02-08,1,29.99,29.99,Wireless Charger,Electronics,29.99,Marine Dubois,France,marine.dubois@example.fr
+S0236,C031,P015,2024-07-31,1,59.99,59.99,Bluetooth Speaker,Electronics,59.99,Michael Davis,USA,michael.davis@example.com
+S0237,C070,P005,2024-12-16,1,9.99,9.99,Smartphone Stand,Accessories,9.99,Toril Aas,Norway,toril.aas@example.no
+S0238,C035,P019,2024-11-17,9,7.99,71.91,Planner,Amenities,7.99,Neha Kapoor,India,neha.kapoor@example.in
+S0239,C030,P058,2024-10-01,9,29.99,269.91,Door Sensor,Electronics,29.99,Kari Solberg,Norway,kari.solberg@example.no
+S0240,C099,P053,2024-09-13,9,9.49,85.41,Pen Holder,Accessories,9.49,Anders Sørensen,Denmark,anders.sorensen@example.dk
+S0241,C072,P038,2024-12-07,4,159.99,639.96,"External Monitor 24""",Electronics,159.99,Emily Carter,UK,emily.carter@example.co.uk
+S0242,C037,P054,2024-08-16,4,6.49,25.96,Wall Calendar,Amenities,6.49,Wang Fang,China,wang.fang@example.cn
+S0243,C008,P060,2024-12-18,9,59.99,539.91,Noise-Isolating Panels,Furniture,59.99,Isabelle Dubois,France,isabelle.dubois@example.fr
+S0244,C036,P019,2024-04-04,6,7.99,47.94,Planner,Amenities,7.99,Rafael Costa,Brazil,rafael.costa@example.br
+S0245,C048,P058,2024-11-24,6,29.99,179.94,Door Sensor,Electronics,29.99,Julie Moreau,France,julie.moreau@example.fr
+S0246,C057,P008,2024-03-30,2,299.99,599.98,Standing Desk,Furniture,299.99,Liu Hong,China,liu.hong@example.cn
+S0247,C056,P002,2024-06-19,8,49.99,399.92,Mechanical Keyboard,Electronics,49.99,Pedro Alves,Brazil,pedro.alves@example.br
+S0248,C048,P047,2024-12-26,7,59.99,419.93,Label Printer,Electronics,59.99,Julie Moreau,France,julie.moreau@example.fr
+S0249,C029,P016,2024-01-24,6,12.99,77.94,Coffee Mug,Accessories,12.99,Lars Kristensen,Denmark,lars.kristensen@example.dk
+S0250,C093,P002,2024-05-11,8,49.99,399.92,Mechanical Keyboard,Electronics,49.99,Stefan Koch,Germany,stefan.koch@example.de
+S0251,C086,P029,2024-01-09,2,14.99,29.98,Smart Light Bulb,Electronics,14.99,Diego Ramos,Brazil,diego.ramos@example.br
+S0252,C030,P027,2024-04-25,6,18.99,113.94,Surge Protector,Electronics,18.99,Kari Solberg,Norway,kari.solberg@example.no
+S0253,C080,P032,2024-10-19,4,299.99,1199.96,VR Headset,Gaming,299.99,Kristin Moe,Norway,kristin.moe@example.no
+S0254,C076,P046,2024-10-08,8,5.49,43.92,Highlighter Set,Office Supplies,5.49,Luana Carvalho,Brazil,luana.carvalho@example.br
+S0255,C002,P021,2024-10-20,3,6.99,20.97,Printer Paper,Office Supplies,6.99,Liam Smith,UK,liam.smith@example.co.uk
+S0256,C062,P012,2024-05-25,6,22.99,137.94,LED Desk Lamp,Furniture,22.99,Charlie Evans,UK,charlie.evans@example.co.uk
+S0257,C027,P023,2024-06-04,9,2.99,26.91,Sticky Notes,Office Supplies,2.99,Zhang Yong,China,zhang.yong@example.cn
+S0258,C046,P058,2024-02-17,10,29.99,299.9,Door Sensor,Electronics,29.99,Bruna Lima,Brazil,bruna.lima@example.br
+S0259,C100,P051,2024-05-25,8,19.99,159.92,Phone Tripod,Accessories,19.99,Sindre Johansen,Norway,sindre.johansen@example.no
+S0260,C063,P009,2024-05-31,1,179.99,179.99,Monitor 27 inch,Electronics,179.99,Paul Schmitt,Germany,paul.schmitt@example.de
+S0261,C039,P047,2024-08-30,9,59.99,539.91,Label Printer,Electronics,59.99,Mads Holm,Denmark,mads.holm@example.dk
+S0262,C070,P045,2024-04-14,6,3.49,20.94,Whiteboard Eraser,Office Supplies,3.49,Toril Aas,Norway,toril.aas@example.no
+S0263,C036,P060,2024-03-09,8,59.99,479.92,Noise-Isolating Panels,Furniture,59.99,Rafael Costa,Brazil,rafael.costa@example.br
+S0264,C089,P022,2024-07-04,6,19.99,119.94,Ink Cartridge,Office Supplies,19.99,Kasper Sørensen,Denmark,kasper.sorensen@example.dk
+S0265,C041,P026,2024-09-16,9,5.99,53.91,Mouse Pad,Accessories,5.99,Jacob Miller,USA,jacob.miller@example.com
+S0266,C061,P014,2024-01-21,7,44.99,314.93,Backpack,Accessories,44.99,Ava Wilson,USA,ava.wilson@example.com
+S0267,C075,P004,2024-03-19,6,89.99,539.94,Noise Cancelling Headphones,Electronics,89.99,Sanjay Desai,India,sanjay.desai@example.in
+S0268,C001,P040,2024-08-04,5,149.99,749.95,File Cabinet,Furniture,149.99,Emily Johnson,USA,emily.johnson@example.com
+S0269,C024,P026,2024-06-12,7,5.99,41.93,Mouse Pad,Accessories,5.99,Katalin Varga,Hungary,katalin.varga@example.hu
+S0270,C006,P036,2024-11-24,1,139.99,139.99,Graphic Tablet,Electronics,139.99,Ana Silva,Brazil,ana.silva@example.br
+S0271,C087,P015,2024-11-17,8,59.99,479.92,Bluetooth Speaker,Electronics,59.99,Huang Lei,China,huang.lei@example.cn
+S0272,C014,P014,2024-03-24,4,44.99,179.96,Backpack,Accessories,44.99,Gábor Tóth,Hungary,gabor.toth@example.hu
+S0273,C016,P031,2024-04-11,9,99.99,899.91,Fitness Tracker,Wearables,99.99,João Souza,Brazil,joao.souza@example.br
+S0274,C007,P008,2024-07-16,6,299.99,1799.94,Standing Desk,Furniture,299.99,Chen Wei,China,chen.wei@example.cn
+S0275,C016,P059,2024-02-13,8,79.99,639.92,Conference Microphone,Electronics,79.99,João Souza,Brazil,joao.souza@example.br
+S0276,C078,P045,2024-01-09,9,3.49,31.41,Whiteboard Eraser,Office Supplies,3.49,Chloe Bernard,France,chloe.bernard@example.fr
+S0277,C013,P036,2024-01-13,6,139.99,839.94,Graphic Tablet,Electronics,139.99,Maria Fischer,Germany,maria.fischer@example.de
+S0278,C032,P051,2024-12-06,7,19.99,139.93,Phone Tripod,Accessories,19.99,Amelia Harris,UK,amelia.harris@example.co.uk
+S0279,C051,P032,2024-04-29,1,299.99,299.99,VR Headset,Gaming,299.99,Ethan Moore,USA,ethan.moore@example.com
+S0280,C050,P033,2024-05-11,4,199.99,799.96,Gaming Chair,Gaming,199.99,Silje Hansen,Norway,silje.hansen@example.no
+S0281,C044,P057,2024-07-13,5,129.99,649.95,Security Camera,Electronics,129.99,Erika Nagy,Hungary,erika.nagy@example.hu
+S0282,C087,P016,2024-10-06,2,12.99,25.98,Coffee Mug,Accessories,12.99,Huang Lei,China,huang.lei@example.cn
+S0283,C082,P041,2024-10-30,5,14.99,74.95,Desk Mat,Accessories,14.99,Sophie King,UK,sophie.king@example.co.uk
+S0284,C003,P002,2024-04-07,8,49.99,399.92,Mechanical Keyboard,Electronics,49.99,Sophie Müller,Germany,sophie.mueller@example.de
+S0285,C010,P016,2024-06-07,7,12.99,90.93,Coffee Mug,Accessories,12.99,Nora Berg,Norway,nora.berg@example.no
+S0286,C092,P012,2024-01-05,3,22.99,68.97,LED Desk Lamp,Furniture,22.99,Grace Thomas,UK,grace.thomas@example.co.uk
+S0287,C052,P053,2024-07-01,2,9.49,18.98,Pen Holder,Accessories,9.49,Lily Young,UK,lily.young@example.co.uk
+S0288,C036,P036,2024-07-06,6,139.99,839.94,Graphic Tablet,Electronics,139.99,Rafael Costa,Brazil,rafael.costa@example.br
+S0289,C059,P039,2024-04-06,8,249.99,1999.92,Office Desk,Furniture,249.99,Rasmus Nielsen,Denmark,rasmus.nielsen@example.dk
+S0290,C062,P021,2024-11-26,8,6.99,55.92,Printer Paper,Office Supplies,6.99,Charlie Evans,UK,charlie.evans@example.co.uk
+S0291,C008,P014,2024-05-20,8,44.99,359.92,Backpack,Accessories,44.99,Isabelle Dubois,France,isabelle.dubois@example.fr
+S0292,C093,P006,2024-05-11,8,15.99,127.92,Laptop Sleeve,Accessories,15.99,Stefan Koch,Germany,stefan.koch@example.de
+S0293,C002,P033,2024-03-02,7,199.99,1399.93,Gaming Chair,Gaming,199.99,Liam Smith,UK,liam.smith@example.co.uk
+S0294,C066,P007,2024-09-04,3,129.99,389.97,Ergonomic Chair,Furniture,129.99,Fernanda Gomes,Brazil,fernanda.gomes@example.br
+S0295,C024,P041,2024-11-14,6,14.99,89.94,Desk Mat,Accessories,14.99,Katalin Varga,Hungary,katalin.varga@example.hu
+S0296,C062,P034,2024-10-28,1,59.99,59.99,Gaming Mouse,Gaming,59.99,Charlie Evans,UK,charlie.evans@example.co.uk
+S0297,C099,P027,2024-10-24,1,18.99,18.99,Surge Protector,Electronics,18.99,Anders Sørensen,Denmark,anders.sorensen@example.dk
+S0298,C098,P014,2024-12-26,5,44.99,224.95,Backpack,Accessories,44.99,Sophie Laurent,France,sophie.laurent@example.fr
+S0299,C001,P019,2024-07-24,1,7.99,7.99,Planner,Amenities,7.99,Emily Johnson,USA,emily.johnson@example.com
+S0300,C093,P040,2024-09-05,4,149.99,599.96,File Cabinet,Furniture,149.99,Stefan Koch,Germany,stefan.koch@example.de
+S0301,C082,P017,2024-01-13,2,3.99,7.98,Notebook,Amenities,3.99,Sophie King,UK,sophie.king@example.co.uk
+S0302,C069,P057,2024-11-06,10,129.99,1299.9,Security Camera,Electronics,129.99,Henrik Thomsen,Denmark,henrik.thomsen@example.dk
+S0303,C079,P042,2024-10-24,2,29.99,59.98,Adjustable Laptop Stand,Accessories,29.99,Jens Andersen,Denmark,jens.andersen@example.dk
+S0304,C024,P001,2024-01-16,10,19.99,199.9,Wireless Mouse,Electronics,19.99,Katalin Varga,Hungary,katalin.varga@example.hu
+S0305,C011,P029,2024-01-01,6,14.99,89.94,Smart Light Bulb,Electronics,14.99,William Brown,USA,william.brown@example.com
+S0306,C001,P018,2024-02-23,3,5.99,17.97,Pen Set,Amenities,5.99,Emily Johnson,USA,emily.johnson@example.com
+S0307,C080,P024,2024-01-06,7,13.99,97.93,Desk Organizer,Accessories,13.99,Kristin Moe,Norway,kristin.moe@example.no
+S0308,C031,P053,2024-01-28,9,9.49,85.41,Pen Holder,Accessories,9.49,Michael Davis,USA,michael.davis@example.com
+S0309,C009,P010,2024-12-13,9,109.99,989.91,Portable SSD 1TB,Electronics,109.99,Daniel Jensen,Denmark,daniel.jensen@example.dk
+S0310,C043,P028,2024-11-11,10,79.99,799.9,WiFi Router,Electronics,79.99,Anna Köhler,Germany,anna.koehler@example.de
+S0311,C009,P019,2024-05-11,10,7.99,79.9,Planner,Amenities,7.99,Daniel Jensen,Denmark,daniel.jensen@example.dk
+S0312,C072,P010,2024-11-01,6,109.99,659.94,Portable SSD 1TB,Electronics,109.99,Emily Carter,UK,emily.carter@example.co.uk
+S0313,C078,P021,2024-08-03,7,6.99,48.93,Printer Paper,Office Supplies,6.99,Chloe Bernard,France,chloe.bernard@example.fr
+S0314,C073,P021,2024-11-17,7,6.99,48.93,Printer Paper,Office Supplies,6.99,Martin Bauer,Germany,martin.bauer@example.de
+S0315,C082,P017,2024-04-15,9,3.99,35.91,Notebook,Amenities,3.99,Sophie King,UK,sophie.king@example.co.uk
+S0316,C054,P006,2024-02-07,4,15.99,63.96,Laptop Sleeve,Accessories,15.99,Dóra Balogh,Hungary,dora.balogh@example.hu
+S0317,C020,P005,2024-03-05,1,9.99,9.99,Smartphone Stand,Accessories,9.99,Eirik Larsen,Norway,eirik.larsen@example.no
+S0318,C051,P005,2024-04-04,7,9.99,69.93,Smartphone Stand,Accessories,9.99,Ethan Moore,USA,ethan.moore@example.com
+S0319,C047,P056,2024-04-26,7,119.99,839.93,Smart Thermostat,Electronics,119.99,Sun Li,China,sun.li@example.cn
+S0320,C064,P054,2024-03-09,7,6.49,45.43,Wall Calendar,Amenities,6.49,Ádám Horváth,Hungary,adam.horvath@example.hu
+S0321,C057,P020,2024-03-21,10,39.99,399.9,Power Bank,Electronics,39.99,Liu Hong,China,liu.hong@example.cn
+S0322,C030,P021,2024-10-12,8,6.99,55.92,Printer Paper,Office Supplies,6.99,Kari Solberg,Norway,kari.solberg@example.no
+S0323,C081,P024,2024-09-07,3,13.99,41.97,Desk Organizer,Accessories,13.99,Logan White,USA,logan.white@example.com
+S0324,C090,P015,2024-05-04,3,59.99,179.97,Bluetooth Speaker,Electronics,59.99,Helene Dahl,Norway,helene.dahl@example.no
+S0325,C056,P007,2024-11-23,2,129.99,259.98,Ergonomic Chair,Furniture,129.99,Pedro Alves,Brazil,pedro.alves@example.br
+S0326,C096,P038,2024-11-25,8,159.99,1279.92,"External Monitor 24""",Electronics,159.99,Thiago Oliveira,Brazil,thiago.oliveira@example.br
+S0327,C099,P049,2024-01-10,10,11.99,119.9,Table Clock,Amenities,11.99,Anders Sørensen,Denmark,anders.sorensen@example.dk
+S0328,C001,P001,2024-07-26,3,19.99,59.97,Wireless Mouse,Electronics,19.99,Emily Johnson,USA,emily.johnson@example.com
+S0329,C022,P046,2024-07-23,8,5.49,43.92,Highlighter Set,Office Supplies,5.49,George Wilson,UK,george.wilson@example.co.uk
+S0330,C001,P039,2024-09-19,1,249.99,249.99,Office Desk,Furniture,249.99,Emily Johnson,USA,emily.johnson@example.com
+S0331,C088,P029,2024-12-29,3,14.99,44.97,Smart Light Bulb,Electronics,14.99,Marc Lefevre,France,marc.lefevre@example.fr
+S0332,C099,P013,2024-04-12,4,29.99,119.96,Wireless Charger,Electronics,29.99,Anders Sørensen,Denmark,anders.sorensen@example.dk
+S0333,C058,P015,2024-10-28,9,59.99,539.91,Bluetooth Speaker,Electronics,59.99,Marine Dubois,France,marine.dubois@example.fr
+S0334,C026,P044,2024-05-26,7,4.99,34.93,Whiteboard Markers,Office Supplies,4.99,Camila Rocha,Brazil,camila.rocha@example.br
+S0335,C082,P051,2024-02-24,4,19.99,79.96,Phone Tripod,Accessories,19.99,Sophie King,UK,sophie.king@example.co.uk
+S0336,C035,P057,2024-04-21,5,129.99,649.95,Security Camera,Electronics,129.99,Neha Kapoor,India,neha.kapoor@example.in
+S0337,C015,P044,2024-05-20,9,4.99,44.91,Whiteboard Markers,Office Supplies,4.99,Priyanka Sharma,India,priyanka.sharma@example.in
+S0338,C035,P035,2024-11-07,5,89.99,449.95,Gaming Keyboard,Gaming,89.99,Neha Kapoor,India,neha.kapoor@example.in
+S0339,C076,P024,2024-12-17,5,13.99,69.95,Desk Organizer,Accessories,13.99,Luana Carvalho,Brazil,luana.carvalho@example.br
+S0340,C091,P025,2024-05-26,3,8.99,26.97,Cable Management Kit,Accessories,8.99,Daniel Hall,USA,daniel.hall@example.com
+S0341,C056,P011,2024-01-09,10,39.99,399.9,Webcam HD,Electronics,39.99,Pedro Alves,Brazil,pedro.alves@example.br
+S0342,C003,P006,2024-01-22,6,15.99,95.94,Laptop Sleeve,Accessories,15.99,Sophie Müller,Germany,sophie.mueller@example.de
+S0343,C077,P008,2024-02-13,7,299.99,2099.93,Standing Desk,Furniture,299.99,Zhao Wei,China,zhao.wei@example.cn
+S0344,C075,P036,2024-01-30,5,139.99,699.95,Graphic Tablet,Electronics,139.99,Sanjay Desai,India,sanjay.desai@example.in
+S0345,C090,P046,2024-01-11,8,5.49,43.92,Highlighter Set,Office Supplies,5.49,Helene Dahl,Norway,helene.dahl@example.no
+S0346,C094,P028,2024-01-12,1,79.99,79.99,WiFi Router,Electronics,79.99,Renáta Németh,Hungary,renata.nemeth@example.hu
+S0347,C080,P041,2024-06-24,7,14.99,104.93,Desk Mat,Accessories,14.99,Kristin Moe,Norway,kristin.moe@example.no
+S0348,C067,P046,2024-05-20,7,5.49,38.43,Highlighter Set,Office Supplies,5.49,Yu Jie,China,yu.jie@example.cn
+S0349,C079,P042,2024-09-29,3,29.99,89.97,Adjustable Laptop Stand,Accessories,29.99,Jens Andersen,Denmark,jens.andersen@example.dk
+S0350,C098,P053,2024-03-20,5,9.49,47.45,Pen Holder,Accessories,9.49,Sophie Laurent,France,sophie.laurent@example.fr
+S0351,C003,P016,2024-10-02,1,12.99,12.99,Coffee Mug,Accessories,12.99,Sophie Müller,Germany,sophie.mueller@example.de
+S0352,C045,P019,2024-05-03,4,7.99,31.96,Planner,Amenities,7.99,Rajesh Singh,India,rajesh.singh@example.in
+S0353,C094,P035,2024-05-27,1,89.99,89.99,Gaming Keyboard,Gaming,89.99,Renáta Németh,Hungary,renata.nemeth@example.hu
+S0354,C069,P051,2024-02-10,2,19.99,39.98,Phone Tripod,Accessories,19.99,Henrik Thomsen,Denmark,henrik.thomsen@example.dk
+S0355,C053,P022,2024-03-15,8,19.99,159.92,Ink Cartridge,Office Supplies,19.99,Jan Becker,Germany,jan.becker@example.de
+S0356,C093,P034,2024-07-17,8,59.99,479.92,Gaming Mouse,Gaming,59.99,Stefan Koch,Germany,stefan.koch@example.de
+S0357,C088,P004,2024-12-06,5,89.99,449.95,Noise Cancelling Headphones,Electronics,89.99,Marc Lefevre,France,marc.lefevre@example.fr
+S0358,C027,P025,2024-06-10,4,8.99,35.96,Cable Management Kit,Accessories,8.99,Zhang Yong,China,zhang.yong@example.cn
+S0359,C036,P050,2024-07-02,10,89.99,899.9,Document Shredder,Office Supplies,89.99,Rafael Costa,Brazil,rafael.costa@example.br
+S0360,C041,P035,2024-11-12,2,89.99,179.98,Gaming Keyboard,Gaming,89.99,Jacob Miller,USA,jacob.miller@example.com
+S0361,C078,P022,2024-11-11,3,19.99,59.97,Ink Cartridge,Office Supplies,19.99,Chloe Bernard,France,chloe.bernard@example.fr
+S0362,C076,P028,2024-09-15,2,79.99,159.98,WiFi Router,Electronics,79.99,Luana Carvalho,Brazil,luana.carvalho@example.br
+S0363,C026,P053,2024-05-27,4,9.49,37.96,Pen Holder,Accessories,9.49,Camila Rocha,Brazil,camila.rocha@example.br
+S0364,C062,P033,2024-11-07,1,199.99,199.99,Gaming Chair,Gaming,199.99,Charlie Evans,UK,charlie.evans@example.co.uk
+S0365,C055,P017,2024-02-13,10,3.99,39.9,Notebook,Amenities,3.99,Anjali Mehta,India,anjali.mehta@example.in
+S0366,C015,P029,2024-01-27,9,14.99,134.91,Smart Light Bulb,Electronics,14.99,Priyanka Sharma,India,priyanka.sharma@example.in
+S0367,C065,P017,2024-04-10,2,3.99,7.98,Notebook,Amenities,3.99,Ishita Joshi,India,ishita.joshi@example.in
+S0368,C047,P041,2024-03-09,3,14.99,44.97,Desk Mat,Accessories,14.99,Sun Li,China,sun.li@example.cn
+S0369,C068,P044,2024-06-16,10,4.99,49.9,Whiteboard Markers,Office Supplies,4.99,Louis Petit,France,louis.petit@example.fr
+S0370,C026,P008,2024-07-31,6,299.99,1799.94,Standing Desk,Furniture,299.99,Camila Rocha,Brazil,camila.rocha@example.br
+S0371,C033,P007,2024-03-17,7,129.99,909.93,Ergonomic Chair,Furniture,129.99,Lukas Weber,Germany,lukas.weber@example.de
+S0372,C049,P014,2024-05-04,5,44.99,224.95,Backpack,Accessories,44.99,Anders Møller,Denmark,anders.moeller@example.dk
+S0373,C019,P031,2024-06-07,2,99.99,199.98,Fitness Tracker,Wearables,99.99,Frederik Hansen,Denmark,frederik.hansen@example.dk
+S0374,C089,P042,2024-01-21,2,29.99,59.98,Adjustable Laptop Stand,Accessories,29.99,Kasper Sørensen,Denmark,kasper.sorensen@example.dk
+S0375,C050,P027,2024-12-06,9,18.99,170.91,Surge Protector,Electronics,18.99,Silje Hansen,Norway,silje.hansen@example.no
+S0376,C031,P018,2024-04-03,4,5.99,23.96,Pen Set,Amenities,5.99,Michael Davis,USA,michael.davis@example.com
+S0377,C020,P043,2024-07-10,8,7.99,63.92,Business Card Holder,Accessories,7.99,Eirik Larsen,Norway,eirik.larsen@example.no
+S0378,C086,P033,2024-11-01,6,199.99,1199.94,Gaming Chair,Gaming,199.99,Diego Ramos,Brazil,diego.ramos@example.br
+S0379,C020,P032,2024-07-21,10,299.99,2999.9,VR Headset,Gaming,299.99,Eirik Larsen,Norway,eirik.larsen@example.no
+S0380,C004,P019,2024-05-15,1,7.99,7.99,Planner,Amenities,7.99,László Kovács,Hungary,laszlo.kovacs@example.hu
+S0381,C016,P006,2024-09-03,2,15.99,31.98,Laptop Sleeve,Accessories,15.99,João Souza,Brazil,joao.souza@example.br
+S0382,C010,P038,2024-12-03,1,159.99,159.99,"External Monitor 24""",Electronics,159.99,Nora Berg,Norway,nora.berg@example.no
+S0383,C094,P018,2024-03-28,8,5.99,47.92,Pen Set,Amenities,5.99,Renáta Németh,Hungary,renata.nemeth@example.hu
+S0384,C009,P050,2024-04-08,7,89.99,629.93,Document Shredder,Office Supplies,89.99,Daniel Jensen,Denmark,daniel.jensen@example.dk
+S0385,C053,P045,2024-09-24,6,3.49,20.94,Whiteboard Eraser,Office Supplies,3.49,Jan Becker,Germany,jan.becker@example.de
+S0386,C065,P006,2024-03-17,10,15.99,159.9,Laptop Sleeve,Accessories,15.99,Ishita Joshi,India,ishita.joshi@example.in
+S0387,C082,P051,2024-07-31,6,19.99,119.94,Phone Tripod,Accessories,19.99,Sophie King,UK,sophie.king@example.co.uk
+S0388,C038,P053,2024-06-21,6,9.49,56.94,Pen Holder,Accessories,9.49,Antoine Girard,France,antoine.girard@example.fr
+S0389,C020,P018,2024-05-07,9,5.99,53.91,Pen Set,Amenities,5.99,Eirik Larsen,Norway,eirik.larsen@example.no
+S0390,C088,P019,2024-06-20,2,7.99,15.98,Planner,Amenities,7.99,Marc Lefevre,France,marc.lefevre@example.fr
+S0391,C076,P031,2024-03-31,6,99.99,599.94,Fitness Tracker,Wearables,99.99,Luana Carvalho,Brazil,luana.carvalho@example.br
+S0392,C073,P028,2024-12-22,6,79.99,479.94,WiFi Router,Electronics,79.99,Martin Bauer,Germany,martin.bauer@example.de
+S0393,C053,P004,2024-09-06,10,89.99,899.9,Noise Cancelling Headphones,Electronics,89.99,Jan Becker,Germany,jan.becker@example.de
+S0394,C026,P050,2024-12-11,4,89.99,359.96,Document Shredder,Office Supplies,89.99,Camila Rocha,Brazil,camila.rocha@example.br
+S0395,C067,P043,2024-02-19,4,7.99,31.96,Business Card Holder,Accessories,7.99,Yu Jie,China,yu.jie@example.cn
+S0396,C053,P026,2024-11-22,1,5.99,5.99,Mouse Pad,Accessories,5.99,Jan Becker,Germany,jan.becker@example.de
+S0397,C037,P050,2024-08-04,8,89.99,719.92,Document Shredder,Office Supplies,89.99,Wang Fang,China,wang.fang@example.cn
+S0398,C085,P046,2024-09-21,1,5.49,5.49,Highlighter Set,Office Supplies,5.49,Tanvi Nair,India,tanvi.nair@example.in
+S0399,C068,P024,2024-10-06,6,13.99,83.94,Desk Organizer,Accessories,13.99,Louis Petit,France,louis.petit@example.fr
+S0400,C003,P005,2024-02-28,4,9.99,39.96,Smartphone Stand,Accessories,9.99,Sophie Müller,Germany,sophie.mueller@example.de
+S0401,C089,P024,2024-07-02,6,13.99,83.94,Desk Organizer,Accessories,13.99,Kasper Sørensen,Denmark,kasper.sorensen@example.dk
+S0402,C041,P056,2024-10-28,8,119.99,959.92,Smart Thermostat,Electronics,119.99,Jacob Miller,USA,jacob.miller@example.com
+S0403,C035,P007,2024-11-17,6,129.99,779.94,Ergonomic Chair,Furniture,129.99,Neha Kapoor,India,neha.kapoor@example.in
+S0404,C089,P035,2024-07-10,4,89.99,359.96,Gaming Keyboard,Gaming,89.99,Kasper Sørensen,Denmark,kasper.sorensen@example.dk
+S0405,C017,P024,2024-02-19,6,13.99,83.94,Desk Organizer,Accessories,13.99,Li Na,China,li.na@example.cn
+S0406,C013,P033,2024-05-04,6,199.99,1199.94,Gaming Chair,Gaming,199.99,Maria Fischer,Germany,maria.fischer@example.de
+S0407,C097,P003,2024-12-27,10,24.99,249.9,USB-C Hub,Electronics,24.99,Gao Ming,China,gao.ming@example.cn
+S0408,C096,P012,2024-12-21,4,22.99,91.96,LED Desk Lamp,Furniture,22.99,Thiago Oliveira,Brazil,thiago.oliveira@example.br
+S0409,C020,P033,2024-01-28,7,199.99,1399.93,Gaming Chair,Gaming,199.99,Eirik Larsen,Norway,eirik.larsen@example.no
+S0410,C044,P021,2024-11-16,9,6.99,62.91,Printer Paper,Office Supplies,6.99,Erika Nagy,Hungary,erika.nagy@example.hu
+S0411,C098,P004,2024-01-18,5,89.99,449.95,Noise Cancelling Headphones,Electronics,89.99,Sophie Laurent,France,sophie.laurent@example.fr
+S0412,C048,P015,2024-10-25,4,59.99,239.96,Bluetooth Speaker,Electronics,59.99,Julie Moreau,France,julie.moreau@example.fr
+S0413,C037,P048,2024-07-23,7,24.99,174.93,Desk Fan,Electronics,24.99,Wang Fang,China,wang.fang@example.cn
+S0414,C028,P031,2024-01-18,7,99.99,699.93,Fitness Tracker,Wearables,99.99,Claire Lefevre,France,claire.lefevre@example.fr
+S0415,C081,P056,2024-08-04,2,119.99,239.98,Smart Thermostat,Electronics,119.99,Logan White,USA,logan.white@example.com
+S0416,C094,P023,2024-04-10,2,2.99,5.98,Sticky Notes,Office Supplies,2.99,Renáta Németh,Hungary,renata.nemeth@example.hu
+S0417,C094,P020,2024-10-19,10,39.99,399.9,Power Bank,Electronics,39.99,Renáta Németh,Hungary,renata.nemeth@example.hu
+S0418,C086,P030,2024-07-25,10,149.99,1499.9,Smart Watch,Wearables,149.99,Diego Ramos,Brazil,diego.ramos@example.br
+S0419,C098,P031,2024-01-14,8,99.99,799.92,Fitness Tracker,Wearables,99.99,Sophie Laurent,France,sophie.laurent@example.fr
+S0420,C089,P020,2024-10-04,3,39.99,119.97,Power Bank,Electronics,39.99,Kasper Sørensen,Denmark,kasper.sorensen@example.dk
+S0421,C040,P024,2024-07-15,1,13.99,13.99,Desk Organizer,Accessories,13.99,Ingrid Nilsen,Norway,ingrid.nilsen@example.no
+S0422,C038,P033,2024-10-13,7,199.99,1399.93,Gaming Chair,Gaming,199.99,Antoine Girard,France,antoine.girard@example.fr
+S0423,C021,P050,2024-05-02,4,89.99,359.96,Document Shredder,Office Supplies,89.99,Jessica Lee,USA,jessica.lee@example.com
+S0424,C007,P054,2024-07-24,6,6.49,38.94,Wall Calendar,Amenities,6.49,Chen Wei,China,chen.wei@example.cn
+S0425,C019,P028,2024-01-20,5,79.99,399.95,WiFi Router,Electronics,79.99,Frederik Hansen,Denmark,frederik.hansen@example.dk
+S0426,C074,P014,2024-01-20,9,44.99,404.91,Backpack,Accessories,44.99,Krisztina Simon,Hungary,krisztina.simon@example.hu
+S0427,C082,P015,2024-04-30,9,59.99,539.91,Bluetooth Speaker,Electronics,59.99,Sophie King,UK,sophie.king@example.co.uk
+S0428,C082,P031,2024-04-23,7,99.99,699.93,Fitness Tracker,Wearables,99.99,Sophie King,UK,sophie.king@example.co.uk
+S0429,C010,P025,2024-03-16,4,8.99,35.96,Cable Management Kit,Accessories,8.99,Nora Berg,Norway,nora.berg@example.no
+S0430,C033,P050,2024-10-03,3,89.99,269.97,Document Shredder,Office Supplies,89.99,Lukas Weber,Germany,lukas.weber@example.de
+S0431,C081,P053,2024-04-29,6,9.49,56.94,Pen Holder,Accessories,9.49,Logan White,USA,logan.white@example.com
+S0432,C099,P052,2024-01-24,4,16.99,67.96,Selfie Ring Light,Accessories,16.99,Anders Sørensen,Denmark,anders.sorensen@example.dk
+S0433,C079,P042,2024-01-27,8,29.99,239.92,Adjustable Laptop Stand,Accessories,29.99,Jens Andersen,Denmark,jens.andersen@example.dk
+S0434,C060,P045,2024-01-25,7,3.49,24.43,Whiteboard Eraser,Office Supplies,3.49,Ole Pedersen,Norway,ole.pedersen@example.no
+S0435,C055,P052,2024-10-01,2,16.99,33.98,Selfie Ring Light,Accessories,16.99,Anjali Mehta,India,anjali.mehta@example.in
+S0436,C006,P009,2024-07-21,5,179.99,899.95,Monitor 27 inch,Electronics,179.99,Ana Silva,Brazil,ana.silva@example.br
+S0437,C045,P008,2024-11-07,3,299.99,899.97,Standing Desk,Furniture,299.99,Rajesh Singh,India,rajesh.singh@example.in
+S0438,C035,P005,2024-10-30,1,9.99,9.99,Smartphone Stand,Accessories,9.99,Neha Kapoor,India,neha.kapoor@example.in
+S0439,C064,P046,2024-07-07,5,5.49,27.45,Highlighter Set,Office Supplies,5.49,Ádám Horváth,Hungary,adam.horvath@example.hu
+S0440,C014,P020,2024-11-08,9,39.99,359.91,Power Bank,Electronics,39.99,Gábor Tóth,Hungary,gabor.toth@example.hu
+S0441,C022,P041,2024-04-24,8,14.99,119.92,Desk Mat,Accessories,14.99,George Wilson,UK,george.wilson@example.co.uk
+S0442,C073,P018,2024-01-02,10,5.99,59.9,Pen Set,Amenities,5.99,Martin Bauer,Germany,martin.bauer@example.de
+S0443,C009,P054,2024-01-18,3,6.49,19.47,Wall Calendar,Amenities,6.49,Daniel Jensen,Denmark,daniel.jensen@example.dk
+S0444,C071,P028,2024-07-28,8,79.99,639.92,WiFi Router,Electronics,79.99,James Martinez,USA,james.martinez@example.com
+S0445,C092,P024,2024-12-14,4,13.99,55.96,Desk Organizer,Accessories,13.99,Grace Thomas,UK,grace.thomas@example.co.uk
+S0446,C069,P012,2024-11-07,6,22.99,137.94,LED Desk Lamp,Furniture,22.99,Henrik Thomsen,Denmark,henrik.thomsen@example.dk
+S0447,C052,P036,2024-08-04,9,139.99,1259.91,Graphic Tablet,Electronics,139.99,Lily Young,UK,lily.young@example.co.uk
+S0448,C046,P016,2024-03-08,6,12.99,77.94,Coffee Mug,Accessories,12.99,Bruna Lima,Brazil,bruna.lima@example.br
+S0449,C020,P012,2024-08-12,4,22.99,91.96,LED Desk Lamp,Furniture,22.99,Eirik Larsen,Norway,eirik.larsen@example.no
+S0450,C049,P040,2024-12-27,4,149.99,599.96,File Cabinet,Furniture,149.99,Anders Møller,Denmark,anders.moeller@example.dk
+S0451,C010,P037,2024-08-26,8,249.99,1999.92,Projector,Electronics,249.99,Nora Berg,Norway,nora.berg@example.no
+S0452,C087,P039,2024-01-18,2,249.99,499.98,Office Desk,Furniture,249.99,Huang Lei,China,huang.lei@example.cn
+S0453,C095,P016,2024-10-25,4,12.99,51.96,Coffee Mug,Accessories,12.99,Vikram Iyer,India,vikram.iyer@example.in
+S0454,C010,P055,2024-02-06,10,10.99,109.9,Water Bottle,Accessories,10.99,Nora Berg,Norway,nora.berg@example.no
+S0455,C045,P005,2024-09-14,4,9.99,39.96,Smartphone Stand,Accessories,9.99,Rajesh Singh,India,rajesh.singh@example.in
+S0456,C086,P048,2024-05-04,10,24.99,249.9,Desk Fan,Electronics,24.99,Diego Ramos,Brazil,diego.ramos@example.br
+S0457,C036,P019,2024-03-16,1,7.99,7.99,Planner,Amenities,7.99,Rafael Costa,Brazil,rafael.costa@example.br
+S0458,C044,P001,2024-03-05,4,19.99,79.96,Wireless Mouse,Electronics,19.99,Erika Nagy,Hungary,erika.nagy@example.hu
+S0459,C037,P053,2024-11-24,5,9.49,47.45,Pen Holder,Accessories,9.49,Wang Fang,China,wang.fang@example.cn
+S0460,C028,P049,2024-03-18,3,11.99,35.97,Table Clock,Amenities,11.99,Claire Lefevre,France,claire.lefevre@example.fr
+S0461,C040,P053,2024-01-02,1,9.49,9.49,Pen Holder,Accessories,9.49,Ingrid Nilsen,Norway,ingrid.nilsen@example.no
+S0462,C030,P007,2024-06-21,8,129.99,1039.92,Ergonomic Chair,Furniture,129.99,Kari Solberg,Norway,kari.solberg@example.no
+S0463,C079,P004,2024-02-01,6,89.99,539.94,Noise Cancelling Headphones,Electronics,89.99,Jens Andersen,Denmark,jens.andersen@example.dk
+S0464,C089,P014,2024-10-19,10,44.99,449.9,Backpack,Accessories,44.99,Kasper Sørensen,Denmark,kasper.sorensen@example.dk
+S0465,C039,P004,2024-05-19,3,89.99,269.97,Noise Cancelling Headphones,Electronics,89.99,Mads Holm,Denmark,mads.holm@example.dk
+S0466,C088,P032,2024-08-13,9,299.99,2699.91,VR Headset,Gaming,299.99,Marc Lefevre,France,marc.lefevre@example.fr
+S0467,C087,P009,2024-06-29,6,179.99,1079.94,Monitor 27 inch,Electronics,179.99,Huang Lei,China,huang.lei@example.cn
+S0468,C034,P028,2024-05-03,5,79.99,399.95,WiFi Router,Electronics,79.99,Zoltán Kiss,Hungary,zoltan.kiss@example.hu
+S0469,C067,P031,2024-12-05,5,99.99,499.95,Fitness Tracker,Wearables,99.99,Yu Jie,China,yu.jie@example.cn
+S0470,C044,P025,2024-03-12,8,8.99,71.92,Cable Management Kit,Accessories,8.99,Erika Nagy,Hungary,erika.nagy@example.hu
+S0471,C080,P057,2024-03-15,7,129.99,909.93,Security Camera,Electronics,129.99,Kristin Moe,Norway,kristin.moe@example.no
+S0472,C024,P029,2024-10-11,2,14.99,29.98,Smart Light Bulb,Electronics,14.99,Katalin Varga,Hungary,katalin.varga@example.hu
+S0473,C035,P004,2024-01-06,10,89.99,899.9,Noise Cancelling Headphones,Electronics,89.99,Neha Kapoor,India,neha.kapoor@example.in
+S0474,C047,P059,2024-12-16,4,79.99,319.96,Conference Microphone,Electronics,79.99,Sun Li,China,sun.li@example.cn
+S0475,C047,P038,2024-12-31,8,159.99,1279.92,"External Monitor 24""",Electronics,159.99,Sun Li,China,sun.li@example.cn
+S0476,C053,P015,2024-07-06,4,59.99,239.96,Bluetooth Speaker,Electronics,59.99,Jan Becker,Germany,jan.becker@example.de
+S0477,C069,P017,2024-09-11,5,3.99,19.95,Notebook,Amenities,3.99,Henrik Thomsen,Denmark,henrik.thomsen@example.dk
+S0478,C082,P035,2024-01-26,1,89.99,89.99,Gaming Keyboard,Gaming,89.99,Sophie King,UK,sophie.king@example.co.uk
+S0479,C022,P024,2024-12-16,6,13.99,83.94,Desk Organizer,Accessories,13.99,George Wilson,UK,george.wilson@example.co.uk
+S0480,C084,P028,2024-06-16,3,79.99,239.97,WiFi Router,Electronics,79.99,Bálint Farkas,Hungary,balint.farkas@example.hu
+S0481,C099,P057,2024-08-30,7,129.99,909.93,Security Camera,Electronics,129.99,Anders Sørensen,Denmark,anders.sorensen@example.dk
+S0482,C065,P038,2024-01-12,8,159.99,1279.92,"External Monitor 24""",Electronics,159.99,Ishita Joshi,India,ishita.joshi@example.in
+S0483,C058,P030,2024-03-25,4,149.99,599.96,Smart Watch,Wearables,149.99,Marine Dubois,France,marine.dubois@example.fr
+S0484,C046,P012,2024-02-14,9,22.99,206.91,LED Desk Lamp,Furniture,22.99,Bruna Lima,Brazil,bruna.lima@example.br
+S0485,C016,P049,2024-07-29,2,11.99,23.98,Table Clock,Amenities,11.99,João Souza,Brazil,joao.souza@example.br
+S0486,C098,P018,2024-01-04,5,5.99,29.95,Pen Set,Amenities,5.99,Sophie Laurent,France,sophie.laurent@example.fr
+S0487,C035,P014,2024-12-06,9,44.99,404.91,Backpack,Accessories,44.99,Neha Kapoor,India,neha.kapoor@example.in
+S0488,C042,P049,2024-11-21,5,11.99,59.95,Table Clock,Amenities,11.99,Megan Walker,UK,megan.walker@example.co.uk
+S0489,C044,P012,2024-02-26,6,22.99,137.94,LED Desk Lamp,Furniture,22.99,Erika Nagy,Hungary,erika.nagy@example.hu
+S0490,C012,P005,2024-03-26,2,9.99,19.98,Smartphone Stand,Accessories,9.99,Oliver Taylor,UK,oliver.taylor@example.co.uk
+S0491,C030,P011,2024-11-25,7,39.99,279.93,Webcam HD,Electronics,39.99,Kari Solberg,Norway,kari.solberg@example.no
+S0492,C061,P020,2024-12-08,4,39.99,159.96,Power Bank,Electronics,39.99,Ava Wilson,USA,ava.wilson@example.com
+S0493,C069,P041,2024-04-23,5,14.99,74.95,Desk Mat,Accessories,14.99,Henrik Thomsen,Denmark,henrik.thomsen@example.dk
+S0494,C011,P058,2024-10-04,5,29.99,149.95,Door Sensor,Electronics,29.99,William Brown,USA,william.brown@example.com
+S0495,C007,P007,2024-04-20,2,129.99,259.98,Ergonomic Chair,Furniture,129.99,Chen Wei,China,chen.wei@example.cn
+S0496,C026,P007,2024-06-08,3,129.99,389.97,Ergonomic Chair,Furniture,129.99,Camila Rocha,Brazil,camila.rocha@example.br
+S0497,C043,P019,2024-09-05,7,7.99,55.93,Planner,Amenities,7.99,Anna Köhler,Germany,anna.koehler@example.de
+S0498,C045,P024,2024-11-22,1,13.99,13.99,Desk Organizer,Accessories,13.99,Rajesh Singh,India,rajesh.singh@example.in
+S0499,C053,P019,2024-03-11,8,7.99,63.92,Planner,Amenities,7.99,Jan Becker,Germany,jan.becker@example.de
+S0500,C018,P045,2024-02-14,7,3.49,24.43,Whiteboard Eraser,Office Supplies,3.49,Jean Martin,France,jean.martin@example.fr
